@@ -1,0 +1,3 @@
+INSERT INTO USER (user_id, id, active, cec_id, created_by, created_dt, first_name, last_name, region, theater, updated_by, updated_dt) VALUES ("user003", 10, "yes", "26347",  "Steven King", "1987-06-17", "Steven", "King", 12, 203, "Neena Kochhar", "1989-09-21");
+
+INSERT INTO USER (user_id, id, active, cec_id, created_by, created_dt, first_name, last_name, region, theater, updated_by, updated_dt) VALUES ("user002", 20, "no", "83546",  "Lex De",   "1993-01-13", "Lex", "De", 15, 501,   "Valli Patablla", "1997-06-05");
