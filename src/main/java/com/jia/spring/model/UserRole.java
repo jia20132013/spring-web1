@@ -6,8 +6,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Table;
+
+import lombok.Data;
+import lombok.ToString;
+
 import javax.persistence.Id;
 
+
+@Data
+@ToString(includeFieldNames=true)
 @Entity
 @Table(name = "USER_ROLE_MAP")
 public class UserRole {
@@ -36,73 +43,73 @@ public class UserRole {
 	
 	
 	
-	public long getUserRoleId() {
-		return userRoleId;
-	}
-	public void setUserRoleId(long userRoleId) {
-		this.userRoleId = userRoleId;
-	}
-	public long getRoleId() {
-		return roleId;
-	}
-	public void setRoleId(long roleId) {
-		this.roleId = roleId;
-	}
-	public String getUserId() {
-		return userId;
-	}
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
-	public String getProxyUserId() {
-		return proxyUserId;
-	}
-	public void setProxyUserId(String proxyUserId) {
-		this.proxyUserId = proxyUserId;
-	}
-	public Date getCreateDt() {
-		return createDt;
-	}
-	public void setCreateDt(Date createDt) {
-		this.createDt = createDt;
-	}
-	public String getCreatedBy() {
-		return createdBy;
-	}
-	public void setCreatedBy(String createdBy) {
-		this.createdBy = createdBy;
-	}
-	public String getUpdatedBy() {
-		return updatedBy;
-	}
-	public void setUpdatedBy(String updatedBy) {
-		this.updatedBy = updatedBy;
-	}
-	public Date getUpdatedDt() {
-		return updatedDt;
-	}
-	public void setUpdatedDt(Date updatedDt) {
-		this.updatedDt = updatedDt;
-	}
-	public String getStatus() {
-		return status;
-	}
-	public void setStatus(String status) {
-		this.status = status;
-	}
-	public int getRegion() {
-		return region;
-	}
-	public void setNumber(int region) {
-		this.region = region;
-	}
-	public int getTheater() {
-		return theater;
-	}
-	public void setTheater(int theater) {
-		this.theater = theater;
-	}
-	
-	
+//	public long getUserRoleId() {
+//		return userRoleId;
+//	}
+//	public void setUserRoleId(long userRoleId) {
+//		this.userRoleId = userRoleId;
+//	}
+//	public long getRoleId() {
+//		return roleId;
+//	}
+//	public void setRoleId(long roleId) {
+//		this.roleId = roleId;
+//	}
+//	public String getUserId() {
+//		return userId;
+//	}
+//	public void setUserId(String userId) {
+//		this.userId = userId;
+//	}
+//	public String getProxyUserId() {
+//		return proxyUserId;
+//	}
+//	public void setProxyUserId(String proxyUserId) {
+//		this.proxyUserId = proxyUserId;
+//	}
+//	public Date getCreateDt() {
+//		return createDt;
+//	}
+//	public void setCreateDt(Date createDt) {
+//		this.createDt = createDt;
+//	}
+//	public String getCreatedBy() {
+//		return createdBy;
+//	}
+//	public void setCreatedBy(String createdBy) {
+//		this.createdBy = createdBy;
+//	}
+//	public String getUpdatedBy() {
+//		return updatedBy;
+//	}
+//	public void setUpdatedBy(String updatedBy) {
+//		this.updatedBy = updatedBy;
+//	}
+//	public Date getUpdatedDt() {
+//		return updatedDt;
+//	}
+//	public void setUpdatedDt(Date updatedDt) {
+//		this.updatedDt = updatedDt;
+//	}
+//	public String getStatus() {
+//		return status;
+//	}
+//	public void setStatus(String status) {
+//		this.status = status;
+//	}
+//	public int getRegion() {
+//		return region;
+//	}
+//	public void setNumber(int region) {
+//		this.region = region;
+//	}
+//	public int getTheater() {
+//		return theater;
+//	}
+//	public void setTheater(int theater) {
+//		this.theater = theater;
+//	}
+//	
+//	
 
 }
